@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Notas
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

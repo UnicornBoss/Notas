@@ -13,26 +13,8 @@
 		26A0AADD256A444E0067F40A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A0AADB256A444E0067F40A /* Main.storyboard */; };
 		26A0AADF256A444F0067F40A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A0AADE256A444F0067F40A /* Assets.xcassets */; };
 		26A0AAE2256A444F0067F40A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A0AAE0256A444F0067F40A /* LaunchScreen.storyboard */; };
-		26A0AAED256A444F0067F40A /* Notas_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0AAEC256A444F0067F40A /* Notas_DemoTests.swift */; };
-		26A0AAF8256A444F0067F40A /* Notas_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0AAF7256A444F0067F40A /* Notas_DemoUITests.swift */; };
+		26C3B263256A612F0045A0FC /* Notas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26C3B262256A612F0045A0FC /* Notas.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		26A0AAE9256A444F0067F40A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26A0AACA256A444E0067F40A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26A0AAD1256A444E0067F40A;
-			remoteInfo = "Notas-Demo";
-		};
-		26A0AAF4256A444F0067F40A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26A0AACA256A444E0067F40A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26A0AAD1256A444E0067F40A;
-			remoteInfo = "Notas-Demo";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		26A0AAD2256A444E0067F40A /* Notas-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notas-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,12 +25,11 @@
 		26A0AADE256A444F0067F40A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26A0AAE1256A444F0067F40A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26A0AAE3256A444F0067F40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A0AAE8256A444F0067F40A /* Notas-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notas-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A0AAEC256A444F0067F40A /* Notas_DemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notas_DemoTests.swift; sourceTree = "<group>"; };
 		26A0AAEE256A444F0067F40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A0AAF3256A444F0067F40A /* Notas-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Notas-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A0AAF7256A444F0067F40A /* Notas_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notas_DemoUITests.swift; sourceTree = "<group>"; };
 		26A0AAF9256A444F0067F40A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C3B262256A612F0045A0FC /* Notas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Notas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,20 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26A0AAE5256A444F0067F40A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26A0AAF0256A444F0067F40A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				26C3B263256A612F0045A0FC /* Notas.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +51,7 @@
 				26A0AAEB256A444F0067F40A /* Notas-DemoTests */,
 				26A0AAF6256A444F0067F40A /* Notas-DemoUITests */,
 				26A0AAD3256A444E0067F40A /* Products */,
+				26C3B261256A612F0045A0FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				26A0AAD2256A444E0067F40A /* Notas-Demo.app */,
-				26A0AAE8256A444F0067F40A /* Notas-DemoTests.xctest */,
-				26A0AAF3256A444F0067F40A /* Notas-DemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,6 +95,14 @@
 			path = "Notas-DemoUITests";
 			sourceTree = "<group>";
 		};
+		26C3B261256A612F0045A0FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26C3B262256A612F0045A0FC /* Notas.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,42 +123,6 @@
 			productReference = 26A0AAD2256A444E0067F40A /* Notas-Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		26A0AAE7256A444F0067F40A /* Notas-DemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26A0AAFF256A444F0067F40A /* Build configuration list for PBXNativeTarget "Notas-DemoTests" */;
-			buildPhases = (
-				26A0AAE4256A444F0067F40A /* Sources */,
-				26A0AAE5256A444F0067F40A /* Frameworks */,
-				26A0AAE6256A444F0067F40A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26A0AAEA256A444F0067F40A /* PBXTargetDependency */,
-			);
-			name = "Notas-DemoTests";
-			productName = "Notas-DemoTests";
-			productReference = 26A0AAE8256A444F0067F40A /* Notas-DemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		26A0AAF2256A444F0067F40A /* Notas-DemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26A0AB02256A444F0067F40A /* Build configuration list for PBXNativeTarget "Notas-DemoUITests" */;
-			buildPhases = (
-				26A0AAEF256A444F0067F40A /* Sources */,
-				26A0AAF0256A444F0067F40A /* Frameworks */,
-				26A0AAF1256A444F0067F40A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26A0AAF5256A444F0067F40A /* PBXTargetDependency */,
-			);
-			name = "Notas-DemoUITests";
-			productName = "Notas-DemoUITests";
-			productReference = 26A0AAF3256A444F0067F40A /* Notas-DemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +134,6 @@
 				TargetAttributes = {
 					26A0AAD1256A444E0067F40A = {
 						CreatedOnToolsVersion = 12.2;
-					};
-					26A0AAE7256A444F0067F40A = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 26A0AAD1256A444E0067F40A;
-					};
-					26A0AAF2256A444F0067F40A = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 26A0AAD1256A444E0067F40A;
 					};
 				};
 			};
@@ -220,8 +151,6 @@
 			projectRoot = "";
 			targets = (
 				26A0AAD1256A444E0067F40A /* Notas-Demo */,
-				26A0AAE7256A444F0067F40A /* Notas-DemoTests */,
-				26A0AAF2256A444F0067F40A /* Notas-DemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,20 +163,6 @@
 				26A0AAE2256A444F0067F40A /* LaunchScreen.storyboard in Resources */,
 				26A0AADF256A444F0067F40A /* Assets.xcassets in Resources */,
 				26A0AADD256A444E0067F40A /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26A0AAE6256A444F0067F40A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26A0AAF1256A444F0067F40A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,36 +179,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26A0AAE4256A444F0067F40A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26A0AAED256A444F0067F40A /* Notas_DemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26A0AAEF256A444F0067F40A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26A0AAF8256A444F0067F40A /* Notas_DemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		26A0AAEA256A444F0067F40A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26A0AAD1256A444E0067F40A /* Notas-Demo */;
-			targetProxy = 26A0AAE9256A444F0067F40A /* PBXContainerItemProxy */;
-		};
-		26A0AAF5256A444F0067F40A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26A0AAD1256A444E0067F40A /* Notas-Demo */;
-			targetProxy = 26A0AAF4256A444F0067F40A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		26A0AADB256A444E0067F40A /* Main.storyboard */ = {
@@ -469,90 +355,6 @@
 			};
 			name = Release;
 		};
-		26A0AB00256A444F0067F40A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UM33989U86;
-				INFOPLIST_FILE = "Notas-DemoTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.unicorn.Notas-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas-Demo.app/Notas-Demo";
-			};
-			name = Debug;
-		};
-		26A0AB01256A444F0067F40A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UM33989U86;
-				INFOPLIST_FILE = "Notas-DemoTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.unicorn.Notas-DemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Notas-Demo.app/Notas-Demo";
-			};
-			name = Release;
-		};
-		26A0AB03256A444F0067F40A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UM33989U86;
-				INFOPLIST_FILE = "Notas-DemoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.unicorn.Notas-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Notas-Demo";
-			};
-			name = Debug;
-		};
-		26A0AB04256A444F0067F40A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UM33989U86;
-				INFOPLIST_FILE = "Notas-DemoUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.unicorn.Notas-DemoUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Notas-Demo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -570,24 +372,6 @@
 			buildConfigurations = (
 				26A0AAFD256A444F0067F40A /* Debug */,
 				26A0AAFE256A444F0067F40A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26A0AAFF256A444F0067F40A /* Build configuration list for PBXNativeTarget "Notas-DemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26A0AB00256A444F0067F40A /* Debug */,
-				26A0AB01256A444F0067F40A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26A0AB02256A444F0067F40A /* Build configuration list for PBXNativeTarget "Notas-DemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26A0AB03256A444F0067F40A /* Debug */,
-				26A0AB04256A444F0067F40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

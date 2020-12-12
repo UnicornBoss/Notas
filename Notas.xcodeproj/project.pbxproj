@@ -7,32 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26A0AAB7256A435B0067F40A /* Notas.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26A0AAAD256A435B0067F40A /* Notas.framework */; };
-		26A0AB14256A46850067F40A /* Notas.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A0AB10256A46850067F40A /* Notas.h */; };
-		26A0AB15256A46850067F40A /* Notas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0AB12256A46850067F40A /* Notas.swift */; };
-		26A0AB16256A46850067F40A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A0AB13256A46850067F40A /* Info.plist */; };
-		26A0AB1E256A468C0067F40A /* NotasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A0AB1C256A468C0067F40A /* NotasTests.swift */; };
-		26A0AB1F256A468C0067F40A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 26A0AB1D256A468C0067F40A /* Info.plist */; };
+		26358E32256A4A5E009151D5 /* String+Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26358E31256A4A5E009151D5 /* String+Length.swift */; };
+		26358E36256A4AD1009151D5 /* NSAttributedString+SafeReplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26358E35256A4AD1009151D5 /* NSAttributedString+SafeReplace.swift */; };
+		26358E3C256A5037009151D5 /* NotasUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26358E3B256A5037009151D5 /* NotasUtil.swift */; };
+		26C3B250256A5C830045A0FC /* Notas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3B24F256A5C830045A0FC /* Notas.swift */; };
+		26C3B273256A642E0045A0FC /* Notas.h in Headers */ = {isa = PBXBuildFile; fileRef = 26C3B272256A642E0045A0FC /* Notas.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26C3B278256A725A0045A0FC /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3B277256A725A0045A0FC /* TextView.swift */; };
+		26C3B27C256A72860045A0FC /* TextStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26C3B27B256A72860045A0FC /* TextStorage.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		26A0AAB8256A435B0067F40A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 26A0AAA4256A435B0067F40A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 26A0AAAC256A435B0067F40A;
-			remoteInfo = Notas;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		26358E31256A4A5E009151D5 /* String+Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Length.swift"; sourceTree = "<group>"; };
+		26358E35256A4AD1009151D5 /* NSAttributedString+SafeReplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+SafeReplace.swift"; sourceTree = "<group>"; };
+		26358E3B256A5037009151D5 /* NotasUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotasUtil.swift; sourceTree = "<group>"; };
 		26A0AAAD256A435B0067F40A /* Notas.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Notas.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A0AAB6256A435B0067F40A /* NotasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		26A0AB10256A46850067F40A /* Notas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notas.h; sourceTree = "<group>"; };
-		26A0AB12256A46850067F40A /* Notas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notas.swift; sourceTree = "<group>"; };
 		26A0AB13256A46850067F40A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26A0AB1C256A468C0067F40A /* NotasTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotasTests.swift; sourceTree = "<group>"; };
-		26A0AB1D256A468C0067F40A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26C3B24F256A5C830045A0FC /* Notas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notas.swift; sourceTree = "<group>"; };
+		26C3B272256A642E0045A0FC /* Notas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notas.h; sourceTree = "<group>"; };
+		26C3B277256A725A0045A0FC /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		26C3B27B256A72860045A0FC /* TextStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,22 +36,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		26A0AAB3256A435B0067F40A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26A0AAB7256A435B0067F40A /* Notas.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26358E39256A4F20009151D5 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				26358E3B256A5037009151D5 /* NotasUtil.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		26358E3A256A4F29009151D5 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				26C3B277256A725A0045A0FC /* TextView.swift */,
+				26C3B27B256A72860045A0FC /* TextStorage.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		26A0AAA3256A435B0067F40A = {
 			isa = PBXGroup;
 			children = (
 				26A0AB0F256A46850067F40A /* Sources */,
-				26A0AB1B256A468C0067F40A /* Tests */,
 				26A0AAAE256A435B0067F40A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -67,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				26A0AAAD256A435B0067F40A /* Notas.framework */,
-				26A0AAB6256A435B0067F40A /* NotasTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,28 +75,23 @@
 		26A0AB0F256A46850067F40A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				26A0AB10256A46850067F40A /* Notas.h */,
-				26A0AB11256A46850067F40A /* Notas */,
+				26C3B272256A642E0045A0FC /* Notas.h */,
+				26C3B24F256A5C830045A0FC /* Notas.swift */,
+				26A0AB28256A49360067F40A /* Extensions */,
+				26358E39256A4F20009151D5 /* Utility */,
+				26358E3A256A4F29009151D5 /* General */,
 				26A0AB13256A46850067F40A /* Info.plist */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		26A0AB11256A46850067F40A /* Notas */ = {
+		26A0AB28256A49360067F40A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				26A0AB12256A46850067F40A /* Notas.swift */,
+				26358E31256A4A5E009151D5 /* String+Length.swift */,
+				26358E35256A4AD1009151D5 /* NSAttributedString+SafeReplace.swift */,
 			);
-			path = Notas;
-			sourceTree = "<group>";
-		};
-		26A0AB1B256A468C0067F40A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				26A0AB1C256A468C0067F40A /* NotasTests.swift */,
-				26A0AB1D256A468C0067F40A /* Info.plist */,
-			);
-			path = Tests;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,7 +101,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A0AB14256A46850067F40A /* Notas.h in Headers */,
+				26C3B273256A642E0045A0FC /* Notas.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,24 +126,6 @@
 			productReference = 26A0AAAD256A435B0067F40A /* Notas.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		26A0AAB5256A435B0067F40A /* NotasTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 26A0AAC4256A435B0067F40A /* Build configuration list for PBXNativeTarget "NotasTests" */;
-			buildPhases = (
-				26A0AAB2256A435B0067F40A /* Sources */,
-				26A0AAB3256A435B0067F40A /* Frameworks */,
-				26A0AAB4256A435B0067F40A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				26A0AAB9256A435B0067F40A /* PBXTargetDependency */,
-			);
-			name = NotasTests;
-			productName = NotasTests;
-			productReference = 26A0AAB6256A435B0067F40A /* NotasTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -159,9 +136,6 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					26A0AAAC256A435B0067F40A = {
-						CreatedOnToolsVersion = 12.2;
-					};
-					26A0AAB5256A435B0067F40A = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
@@ -180,22 +154,12 @@
 			projectRoot = "";
 			targets = (
 				26A0AAAC256A435B0067F40A /* Notas */,
-				26A0AAB5256A435B0067F40A /* NotasTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		26A0AAAB256A435B0067F40A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26A0AB1F256A468C0067F40A /* Info.plist in Resources */,
-				26A0AB16256A46850067F40A /* Info.plist in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26A0AAB4256A435B0067F40A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,27 +173,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26A0AB15256A46850067F40A /* Notas.swift in Sources */,
-				26A0AB1E256A468C0067F40A /* NotasTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		26A0AAB2256A435B0067F40A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				26358E3C256A5037009151D5 /* NotasUtil.swift in Sources */,
+				26C3B27C256A72860045A0FC /* TextStorage.swift in Sources */,
+				26C3B250256A5C830045A0FC /* Notas.swift in Sources */,
+				26C3B278256A725A0045A0FC /* TextView.swift in Sources */,
+				26358E36256A4AD1009151D5 /* NSAttributedString+SafeReplace.swift in Sources */,
+				26358E32256A4A5E009151D5 /* String+Length.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		26A0AAB9256A435B0067F40A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 26A0AAAC256A435B0067F40A /* Notas */;
-			targetProxy = 26A0AAB8256A435B0067F40A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		26A0AABF256A435B0067F40A /* Debug */ = {
@@ -363,7 +316,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Notas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -387,7 +340,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Notas/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -397,44 +350,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.unicorn.Notas;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		26A0AAC5256A435B0067F40A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UM33989U86;
-				INFOPLIST_FILE = NotasTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.unicorn.NotasTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		26A0AAC6256A435B0067F40A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UM33989U86;
-				INFOPLIST_FILE = NotasTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.unicorn.NotasTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -457,15 +372,6 @@
 			buildConfigurations = (
 				26A0AAC2256A435B0067F40A /* Debug */,
 				26A0AAC3256A435B0067F40A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		26A0AAC4256A435B0067F40A /* Build configuration list for PBXNativeTarget "NotasTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				26A0AAC5256A435B0067F40A /* Debug */,
-				26A0AAC6256A435B0067F40A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
