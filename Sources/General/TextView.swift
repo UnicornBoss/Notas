@@ -94,5 +94,40 @@ open class Notas: UITextView {
         
         storage.replaceRange(targetRange, withAttributedString: NSAttributedString(string: replacedContent), oldAttributedString: NSAttributedString(string: String(targetText)), selectedRangeLocationMove: replacedContent.length() - targetText.length)
     }
+    
+    open func convertToNormal() {
+        
+        var targetText: NSString!
+        var targetRange: NSRange!
+        
+        let currentPreviousInfo = NotasUtil.previousInfo(self.text, location: selectedRange.location)
+        let currentFirstStart = currentPreviousInfo.1
+
+        if selectedRange.length == 0 {
+            targetText = NotasUtil.currentParagraph(of: text, location: selectedRange.location) as NSString
+            targetRange = NSRange(location: currentFirstStart, length: targetText.length)
+        } else {
+            var currentSecondEnd = selectedRange.location + selectedRange.length
+            currentSecondEnd = NotasUtil.nextInfo(text, location: currentSecondEnd).1
+            targetRange = NSRange(location: currentFirstStart, length: currentSecondEnd - currentFirstStart)
+            targetText = (text as NSString).substring(with: targetRange) as NSString
+        }
+        
+        var replacedContents: [NSString] = []
+
+        targetText.enumerateLines { (line, stop) in
+            var currentLine: NSString = line as NSString
+            
+            if NotasUtil.isListParagraph(line) {
+                currentLine = currentLine.substring(from: currentLine.range(of: " ").location + 1) as NSString
+            }
+            
+            replacedContents.append(currentLine)
+        }
+        
+        let replacedContent = NSArray(array: replacedContents).componentsJoined(by: "\n")
+        
+        storage.replaceRange(targetRange, withAttributedString: NSAttributedString(string: replacedContent), oldAttributedString: NSAttributedString(string: String(targetText)), selectedRangeLocationMove: replacedContent.length() - targetText.length)
+    }
 }
 
